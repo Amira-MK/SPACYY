@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:background="@drawable/backnum"
-    >
-
+    tools:context="com.example.spacysprint1.numberseng">
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -20,14 +21,14 @@
                 android:layout_height="200dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="250dp"
-                android:src="@drawable/zero" />
+                android:src="@drawable/zeroengli" />
 
             <ImageView
                 android:layout_width="300dp"
                 android:layout_height="200dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="250dp"
-                android:src="@drawable/one" />
+                android:src="@drawable/oneenglish" />
 
             <ImageView
                 android:layout_width="300dp"
@@ -41,7 +42,7 @@
                 android:layout_height="200dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="250dp"
-                android:src="@drawable/three" />
+                android:src="@drawable/threee" />
 
             <ImageView
                 android:layout_width="300dp"
@@ -83,7 +84,7 @@
                 android:layout_height="200dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="250dp"
-                android:src="@drawable/ninee" />
+                android:src="@drawable/nine" />
 
             <ImageView
                 android:layout_width="300dp"
@@ -110,14 +111,16 @@
                 android:layout_height="100dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="150dp"
-                android:src="@drawable/zero" />
+                android:background="@drawable/forme"
+                android:src="@drawable/zeroengli" />
 
             <ImageView
                 android:layout_width="120dp"
                 android:layout_height="100dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="150dp"
-                android:src="@drawable/one" />
+                android:background="@drawable/forme"
+                android:src="@drawable/oneenglish" />
 
             <ImageView
                 android:layout_width="120dp"
@@ -131,7 +134,7 @@
                 android:layout_height="100dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="150dp"
-                android:src="@drawable/three" />
+                android:src="@drawable/threee" />
 
             <ImageView
                 android:layout_width="120dp"
@@ -156,28 +159,28 @@
 
             <ImageView
                 android:layout_width="120dp"
-                android:layout_height="200dp"
+                android:layout_height="100dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="150dp"
                 android:src="@drawable/seven" />
 
             <ImageView
                 android:layout_width="120dp"
-                android:layout_height="200dp"
+                android:layout_height="100dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="150dp"
                 android:src="@drawable/eight" />
 
             <ImageView
                 android:layout_width="120dp"
-                android:layout_height="200dp"
+                android:layout_height="100dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="150dp"
-                android:src="@drawable/ninee" />
+                android:src="@drawable/nine" />
 
             <ImageView
                 android:layout_width="120dp"
-                android:layout_height="200dp"
+                android:layout_height="100dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="150dp"
                 android:src="@drawable/ten" />
@@ -185,5 +188,6 @@
 
         </LinearLayout>
     </HorizontalScrollView>
+
 
 </LinearLayout>

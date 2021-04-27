@@ -45,7 +45,7 @@ public class Quiz extends AppCompatActivity {
                     , R.string.question9_C, R.string.question9_D, R.string.answer9),
             new answerClass(1,R.string.question2, R.string.question2_A, R.string.question2_B
                     , R.string.question2_C, R.string.question2_D, R.string.answer2),
-            new answerClass(2,R.drawable.twooo,R.string.question6_A, R.string.question6_B
+            new answerClass(2,R.drawable.two,R.string.question6_A, R.string.question6_B
                     , R.string.question6_C, R.string.question6_D, R.string.answer6),
             new answerClass(1,R.string.question3, R.string.question3_A, R.string.question3_B
                     , R.string.question3_C, R.string.question3_D, R.string.answer3),

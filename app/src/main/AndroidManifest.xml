@@ -9,22 +9,31 @@
         android:roundIcon="@drawable/astro"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AlphabetAng"
-            android:theme="@style/Theme.Design.NoActionBar"/>
-        <activity android:name=".AFA"></activity>
-        <activity android:name=".Quiz"
-            android:theme="@style/Theme.Design.NoActionBar"/>
-        <activity android:name=".NumbersFr"
-            android:theme="@style/Theme.Design.NoActionBar"/>
-        <activity android:name=".ANQ"
-            android:theme="@style/Theme.Design.NoActionBar"/>
-        <activity android:name=".levels"
-            android:theme="@style/Theme.Design.NoActionBar"/>
-        <activity android:name=".NumAn"
-            android:theme="@style/Theme.Design.NoActionBar"/>
-        <activity android:name=".NumAr"
-            android:theme="@style/Theme.Design.NoActionBar"/>
-        <activity android:name=".Splash"
+        <activity android:name=".numberseng"></activity>
+        <activity
+            android:name=".AlphabetAng"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity android:name=".AFA" />
+        <activity
+            android:name=".Quiz"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".NumbersFr"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".ANQ"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".levels"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".NumAn"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".NumAr"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Splash"
             android:theme="@style/Theme.Design.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
